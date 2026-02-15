@@ -30,7 +30,7 @@ export default function AlertComponent() {
 
   return (
     <AnimatePresence>
-      {isVisible && (
+      {/* {isVisible && (
         <motion.div
           initial={{ opacity: 0, scale: 0.8, y: -50 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -60,14 +60,14 @@ export default function AlertComponent() {
             <motion.button 
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={handleClose}
+              // onClick={handleClose}
               className="w-full bg-white text-teal-600 font-bold py-3 px-6 rounded-lg hover:bg-opacity-90 transition-colors"
             >
               Got it, thanks!
             </motion.button>
           </div>
         </motion.div>
-      )}
+      )} */}
     </AnimatePresence>
   )
 }
