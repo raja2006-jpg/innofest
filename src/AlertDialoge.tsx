@@ -11,7 +11,7 @@ export default function AlertComponent() {
 
   // useEffect(() => {
   //   // Simulate page refresh by showing the alert after a short delay
-  //   const timer = setTimeout(() => {
+  //   const timer = setTimeout(() => 
   //     setIsVisible(true)
   //     // Trigger confetti effect
   //     confetti({
@@ -27,6 +27,7 @@ export default function AlertComponent() {
   // const handleClose = () => {
   //   setIsVisible(false)
   // }
+}
 
   return (
     <AnimatePresence>
