@@ -1,13 +1,13 @@
 'use client'
 
-import { useState, } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+// import { useState } from 'react'
+import { AnimatePresence } from 'framer-motion'
 //@ts-ignore
 // import confetti from 'canvas-confetti'
 // import { X } from 'lucide-react'
 
 export default function AlertComponent() {
-  const [isVisible,] = useState(false)
+  // const [isVisible,] = useState(false)
 
   // useEffect(() => {
   //   // Simulate page refresh by showing the alert after a short delay
